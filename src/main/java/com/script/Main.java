@@ -101,7 +101,7 @@ public class Main {
                     message = input.readLine();
                     System.out.println(message);
                 }while(!message.equals("") || !message.isEmpty());
-                if(init[1].equals("classroom.json")){
+                if(init[1].equals("/classroom.json")){
                     sendClassroom(output, c1);
                 }else{
                     sendFile(output, init[1]);
